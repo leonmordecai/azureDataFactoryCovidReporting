@@ -1,0 +1,22 @@
+{
+	"name": "ds_population_sink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_cicddemodl_managed_identity",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "sink"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

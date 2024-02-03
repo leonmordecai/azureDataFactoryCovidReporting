@@ -1,0 +1,10 @@
+{
+	"name": "ls_cicddemodl_managed_identity",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://leodevcicddemodl.dfs.core.windows.net/"
+		}
+	}
+}

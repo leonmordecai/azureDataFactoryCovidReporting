@@ -1,0 +1,10 @@
+{
+	"name": "ls_ci_cd_demo_kv",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://leo-dev-ci-cd-demo-kv.vault.azure.net/"
+		}
+	}
+}
